@@ -4,3 +4,9 @@ database:
         environment:
           RAILS_ENV: test
           RACK_ENV: test
+dependencies:
+  override:
+    - bundle exec install
+
+
+
