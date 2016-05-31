@@ -4,5 +4,10 @@ database:
         environment:
           RAILS_ENV: test
           RACK_ENV: test
-
-
+test:
+  override:
+    -bundle exec rspec:
+      environment:
+        RAILS_ENV: test
+      file:
+        - spec/**/*.rb
