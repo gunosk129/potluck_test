@@ -4,11 +4,5 @@ database:
         environment:
           RAILS_ENV: test
           RACK_ENV: test
-dependencies:
-  pre:
-    - gem install mime-types-data -v '3.2016.0521'
-  override:
-    - bundle install
-
 
 
