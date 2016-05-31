@@ -6,7 +6,7 @@ database:
           RACK_ENV: test
 dependencies:
   override:
-    - bundle exec install
+    - bundle install
 
 
 
